@@ -1,9 +1,13 @@
 package com.example.runner;
 
-public class Runner {
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
-	public Runner() {
-		// TODO Auto-generated constructor stub
+@Component
+public class Runner implements CommandLineRunner {
+	
+	public void run(String... args) {
+		System.out.println("Runner implements CommandLineRunner ....");
 	}
 
 }
