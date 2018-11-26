@@ -1,0 +1,7 @@
+server:
+  port: 9999
+management: 
+ security: 
+  enable: false
+ port: 8888
+ context-path: /abc
