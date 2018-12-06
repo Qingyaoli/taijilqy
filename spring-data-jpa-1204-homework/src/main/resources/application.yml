@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    #driver-class-name: com.mysql.jc.jdbc.Driver
+    url: jdbc:mysql://localhost/mydb1?bookshop=true&serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: 123456
